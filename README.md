@@ -3,6 +3,8 @@ Filter SpareRoom listings and calculate commute times with CityMapper API to all
 
 This code is pretty horrible as it was written in a mad rush to find an apartment - it was extremely useful as it narrowed SpareRoom's >1000 suggested Apartments to <20. Use with trepidation.
 
+The barebones of the scraper were stolen and bastardised from https://github.com/davidmoremad/find-room-in-london
+
 # Usage
 1. Get an API key for citymapper from [this link](https://docs.external.citymapper.com/api/)
 2. Copy and paste the API key into `main.py` along with a search link for your city of choice. 
